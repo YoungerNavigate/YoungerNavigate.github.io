@@ -2,38 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>YoungerNavigate</title>
   
-  
+  <subtitle>YoungerNavigate</subtitle>
   <link href="https://youngernavigate.github.io/atom.xml" rel="self"/>
   
   <link href="https://youngernavigate.github.io/"/>
-  <updated>2022-05-04T15:09:01.172Z</updated>
+  <updated>2022-05-20T06:08:10.904Z</updated>
   <id>https://youngernavigate.github.io/</id>
   
   <author>
-    <name>Qing Shi Wei</name>
+    <name>倾逝唯</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://youngernavigate.github.io/2022/05/04/hello-world/"/>
-    <id>https://youngernavigate.github.io/2022/05/04/hello-world/</id>
-    <published>2022-05-04T15:09:01.172Z</published>
-    <updated>2022-05-04T15:09:01.172Z</updated>
+    <title>Python爬虫</title>
+    <link href="https://youngernavigate.github.io/2022/05/20/python-pa-chong/"/>
+    <id>https://youngernavigate.github.io/2022/05/20/python-pa-chong/</id>
+    <published>2022-05-20T05:22:45.000Z</published>
+    <updated>2022-05-20T06:08:10.904Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;以下是我自学python爬虫的个人见解&quot;&gt;&lt;a href=&quot;#以下是我自学python爬虫的个人见解&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
+    
+    <category term="Python" scheme="https://youngernavigate.github.io/tags/Python/"/>
     
   </entry>
   
