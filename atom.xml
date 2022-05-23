@@ -6,7 +6,7 @@
   <link href="https://youngernavigate.github.io/atom.xml" rel="self"/>
   
   <link href="https://youngernavigate.github.io/"/>
-  <updated>2022-05-20T06:55:03.369Z</updated>
+  <updated>2022-05-23T04:02:21.749Z</updated>
   <id>https://youngernavigate.github.io/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Python学习</title>
+    <link href="https://youngernavigate.github.io/2022/05/22/python-xue-xi/"/>
+    <id>https://youngernavigate.github.io/2022/05/22/python-xue-xi/</id>
+    <published>2022-05-22T03:56:04.000Z</published>
+    <updated>2022-05-23T04:02:21.749Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Python学习&quot;&gt;&lt;a href=&quot;#Python学习&quot; class=&quot;headerlink&quot; title=&quot;Python学习&quot;&gt;&lt;/a&gt;Python学习&lt;/h1&gt;&lt;hr&gt;
+&lt;h3 id=&quot;准备工具&quot;&gt;&lt;a href=&quot;#准备工具&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Python" scheme="https://youngernavigate.github.io/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Python爬虫</title>
     <link href="https://youngernavigate.github.io/2022/05/20/python-pa-chong/"/>
     <id>https://youngernavigate.github.io/2022/05/20/python-pa-chong/</id>
     <published>2022-05-20T05:22:45.000Z</published>
-    <updated>2022-05-20T06:55:03.369Z</updated>
+    <updated>2022-05-22T03:55:12.838Z</updated>
     
     
       

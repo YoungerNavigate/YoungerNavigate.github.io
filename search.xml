@@ -4,11 +4,30 @@
   
     
     <entry>
+      <title>Python学习</title>
+      <link href="/2022/05/22/python-xue-xi/"/>
+      <url>/2022/05/22/python-xue-xi/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Python学习"><a href="#Python学习" class="headerlink" title="Python学习"></a>Python学习</h1><hr><h3 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h3><ul><li><h5 id="Python编译器"><a href="#Python编译器" class="headerlink" title="Python编译器"></a><a href="https://www.python.org/downloads/">Python编译器</a></h5></li><li><h5 id="PyCharm开发工具-社区版免费-专业版试用一个月"><a href="#PyCharm开发工具-社区版免费-专业版试用一个月" class="headerlink" title="PyCharm开发工具 (社区版免费 专业版试用一个月)"></a><a href="https://www.jetbrains.com/pycharm/">PyCharm开发工具</a> (社区版免费 专业版试用一个月)</h5></li><li><h5 id="破解专业版教程"><a href="#破解专业版教程" class="headerlink" title="破解专业版教程"></a><a href="http://www.javatiku.cn/pycharm/1467.html">破解专业版教程</a></h5></li></ul><hr><h3 id="开始学习"><a href="#开始学习" class="headerlink" title="开始学习"></a>开始学习</h3><ul><li><h4 id="print输出函数"><a href="#print输出函数" class="headerlink" title="print输出函数"></a>print输出函数</h4><p>print函数可以输出数字,字符,运算,也可以将数据输出到文件中 注意使用file</p><figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#将数据输出到文件</span></span><br><span class="line">fp = <span class="built_in">open</span>(<span class="string">'F:/text.txt'</span>,<span class="string">'a+'</span>)</span><br><span class="line"><span class="comment">#a+如果文件不存在就创建,如果文件存在 就在内容后面继续添加</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">'hello world'</span>,file=fp)</span><br><span class="line">fp.close()</span><br></pre></td></tr></tbody></table></figure></li><li><h4 id="转义字符"><a href="#转义字符" class="headerlink" title="转义字符"></a>转义字符</h4><table><thead><tr><th align="center">名称</th><th align="center">符号</th><th align="left">功能</th></tr></thead><tbody><tr><td align="center">换行符</td><td align="center">\n</td><td align="left">使活跃位置跳到下一行的开端</td></tr><tr><td align="center">退格符</td><td align="center">\b</td><td align="left">使当前行的活跃位置后退一个位置。</td></tr><tr><td align="center">换页符</td><td align="center">\f</td><td align="left">使活跃位置跳到下一页的开端(注：换页符可用于控制打印机换页 但不会导致 PC 机的显示屏换页)</td></tr><tr><td align="center">回车符</td><td align="center">\r</td><td align="left">使活跃位置返回当前行的开端(注: 回车和换行不一样，回到本行的初始位置，用后面的替换前面的数据)</td></tr><tr><td align="center">水平制表符</td><td align="center">\t</td><td align="left">使活跃位置移动若干个位置（通常是8个）</td></tr><tr><td align="center">垂直制表符</td><td align="center">\v</td><td align="left">使活跃位置换若干行(注: \v可用于控制打印机换若干行 但是不会导致PC机的显示屏换行)</td></tr><tr><td align="center">响铃符</td><td align="center">\a</td><td align="left">使电脑播放系统错误提示音</td></tr></tbody></table><p> 注意: 如果要输出 \ 时需要用 \\ 输出 ‘ 时需要用 \‘  </p><p> 另外,原字符可以使字符串中的转义字符失效,只需在字符串前加 R 或 r 就行 </p><p> 例如:<code>print(r'转义字符\n失效了')</code> </p><p> 使用原字符字符串最后一位不能是\ 但可以是\\</p><p> 例如:<code>print(r'这是\n错误的\')</code></p></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Python爬虫</title>
       <link href="/2022/05/20/python-pa-chong/"/>
       <url>/2022/05/20/python-pa-chong/</url>
       
-        <content type="html"><![CDATA[<h1 id="以下是我个人学习python爬虫的过程"><a href="#以下是我个人学习python爬虫的过程" class="headerlink" title="以下是我个人学习python爬虫的过程"></a>以下是我个人学习python爬虫的过程</h1><hr><h3 id="需要的工具"><a href="#需要的工具" class="headerlink" title="需要的工具"></a>需要的工具</h3><p>* </p>]]></content>
+        <content type="html"><![CDATA[<h1 id="以下是我个人学习python爬虫的过程"><a href="#以下是我个人学习python爬虫的过程" class="headerlink" title="以下是我个人学习python爬虫的过程"></a>以下是我个人学习python爬虫的过程</h1><hr><h3 id="什么是爬虫"><a href="#什么是爬虫" class="headerlink" title="什么是爬虫"></a>什么是爬虫</h3><ul><li>爬虫是通过编写程序,模拟浏览器上网,然后让其去浏览器上抓取数据的过程</li></ul><hr><h3 id="爬虫使用场景分类"><a href="#爬虫使用场景分类" class="headerlink" title="爬虫使用场景分类"></a>爬虫使用场景分类</h3><ul><li><p>通用爬虫</p><ul><li>抓取系统重要组成部分,抓取的是一整张页面的数据</li></ul></li><li><p>聚焦爬虫</p><ul><li>是建立在通用爬虫的基础之上,抓取的是页面中特定的局部内容</li></ul></li><li><p>增量式爬虫</p><ul><li>检测网站中数据更新的情况,只会抓取网站中最新更新出来的数据</li></ul></li></ul><hr><h3 id="robots-txt协议"><a href="#robots-txt协议" class="headerlink" title="robots.txt协议"></a>robots.txt协议</h3><ul><li><p>主要指的是爬虫的君子协议</p></li><li><p>一般是在网站链接后面加 robots.txt  </p></li><li><p>Allow代表可以爬取 </p></li><li><p>Disallow 代表不可以爬取</p></li></ul><hr><h3 id="http协议"><a href="#http协议" class="headerlink" title="http协议"></a>http协议</h3><ul><li><p>概念: 就是服务器和客户端进行数据交互的一种形式</p></li><li><p>常用请求头信息</p><ul><li>User-Agent: 请求载体的身份标识</li><li>Connection: 请求完毕后,是断开连接还是保持连接</li></ul></li><li><p>常用响应头信息</p><ul><li>Content-Type: 服务器响应回客户端的数据类型</li></ul></li></ul><h3 id="https协议"><a href="#https协议" class="headerlink" title="https协议"></a>https协议</h3><ul><li>安全的超文本传输协议</li><li>加密方式<ul><li>对称密钥加密</li><li>非对称密钥加密</li><li>证书密钥加密</li></ul></li></ul>]]></content>
       
       
       
